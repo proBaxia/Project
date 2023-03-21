@@ -1,0 +1,32 @@
+HOW TO HOST A STATIC_WEBSITE ON AWS S3
+login to your aws console
+seacrh for s3 
+1 creat your bucket
+2 upload your files/folder to your object and Grant public-read access
+3 Enable  Static website hosting form Properties
+4 copy your index.html URL /Object URL and paste to your web-browser
+
+
+      CLICK ON CREATE BUCKET
+1}Bucket name =mybucket2023
+ Choose your region = us-east-1
+ Object Ownership = click on ACLs enabled
+ UNBlock all public access by clicking on 
+ I acknowledge that the current settings might
+ result in this bucket and the objects within becoming public. 
+ Enable Bucket Versioning 
+ click on create bucket = Bucket created 
+ 
+2} click on your bucket and upload your index.html Addfiles/Addfolder
+   Permissions     = click on Grant public-read access click on I understand the risk
+                     of granting public-read access to the specified objects.
+   Storage class   = Standard 
+   click on upload = upload your files/folder to your object
+ 
+3} Go to Properties stroll dowm to edit Static website hosting enable.
+   Index document = index.html
+   Save Change
+
+4} copy your index.html URL /Object URL and paste to your web-browser
+   
+   YOU HAVE HOST HOST A STATIC_WEBSITE ON AWS S3
